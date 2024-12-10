@@ -1,0 +1,60 @@
+{
+  "schedule": [    
+    {
+      "period": "1",
+       "time": "8:24 AM - 9:31 AM",
+      "class_name": "Fine Art 1",
+      "teacher": "Snedden, Brian",
+      "room": "A103",
+      "days": ["A", "B", "C", "E", "F"]
+      },
+      {
+        "period": "2",
+         "time": "9:36 AM - 10:43 AM",
+        "class_name": "AP Computer Science A",
+        "teacher": "Hoagland, Jennifer",
+        "room": "B108",
+        "days": ["A", "B", "D", "E", "F"]
+        },
+        {
+          "period": "3",
+          "time": "10:48 AM - 11:55 AM",
+          "class_name": "Web Design WDPP",
+          "teacher": "Herbert, Megan",
+          "room": "B114",
+          "days": ["A", "C", "D", "E", "G"]
+          }, 
+          {
+            "period": "4",
+             "time": "8:24 AM - 9:31 AM",
+            "class_name": "Financial Literacy",
+            "teacher": "Smith, Christian",
+            "room": "D107",
+            "days": ["B", "C", "D", "F", "G"]
+            }, 
+            {
+              "period": "5",
+               "time": "12:41 PM - 1:48 PM",
+              "class_name": "Study Hall",
+              "teacher": "Sharkey, Andrew",
+              "room": "MEDIA",
+              "days": ["A", "B", "D", "E", "G"]
+              }, 
+              {
+                "period": "6",
+                 "time": "1:53 PM - 3:00 PM",
+                "class_name": "BCC English",
+                "teacher": "Roxana, Bellamy",
+                "room": "C114",
+                "days": ["A", "C", "D", "F", "G"]
+                }, 
+                {
+                  "period": "7",
+                   "time": "12:41 AM - 1:48 PM",
+                  "class_name": "AP Calculus AB",
+                  "teacher": "Drummond, Phillip",
+                  "room": "D219",
+                  "days": ["B", "C", "E", "F", "G"]
+                  }
+  ]
+}

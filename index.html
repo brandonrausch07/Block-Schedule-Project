@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Viewer</title>
+    <!-- Add Bootstrap CDN for styling -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+   
+
+        <!-- Error message -->
+        <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;">
+            Invalid input or schedule datfa not found.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+      <!-- Table for displaying schedule -->
+      
+      </div>
+
+      <!-- Error message -->
+      <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;">
+          Invalid input or schedule data not found.
+      </div>
+  </div>
+       
+            <h3 class="text-center"></h3>
+            <table class="table table-bordered table-striped">
+                <thead>
+                </thead>
+                <tbody id="scheduleList"></tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    * {box-sizing: border-box;}
+    ul {list-style-type: none;}
+    body {font-family: Verdana, sans-serif;}
+    
+    .month {
+      padding: 70px 25px;
+      width: 100%;
+      background: #1ab;
+      text-align: center;
+    }
+    
+    .month ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .month ul li {
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    
+    .month .prev {
+      float: left;
+      padding-top: 10px;
+    }
+    
+    .month .next {
+      float: right;
+      padding-top: 10px;
+    }
+    
+    .weekdays {
+      margin: 0;
+      padding: 10px 0;
+      background-color: #ddd;
+    }
+    
+    .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #666;
+      text-align: center;
+    }
+    
+    .days {
+      padding: 10px 0;
+      background: #eee;
+      margin: 0;
+    }
+    
+    .days li {
+      list-style-type: none;
+      display: inline-block;
+      width: 13.6%;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size:12px;
+      color: #777;
+    }
+    
+    .days li .active {
+      padding: 5px;
+      background: #1abc9c;
+      color: white !important
+    }
+    
+    /* Add media queries for smaller screens */
+    @media screen and (max-width:720px) {
+      .weekdays li, .days li {width: 13.1%;}
+    }
+    
+    @media screen and (max-width: 420px) {
+      .weekdays li, .days li {width: 12.5%;}
+      .days li .active {padding: 2px;}
+    }
+    
+    @media screen and (max-width: 290px) {
+      .weekdays li, .days li {width: 12.2%;}
+    }
+    </style>
+    </head>
+    <body>
+      <h1>Pick a letter Day:</h1>
+      <div>
+        <label><input type="checkbox" name="days" value="A"> A</label>
+        <label><input type="checkbox" name="days" value="B"> B</label>
+        <label><input type="checkbox" name="days" value="C"> C</label>
+        <label><input type="checkbox" name="days" value="D"> D</label>
+        <label><input type="checkbox" name="days" value="E"> E</label>
+        <label><input type="checkbox" name="days" value="F"> F</label>
+        <label><input type="checkbox" name="days" value="G"> G</label>
+    </div>
+
+    <button id="submit-btn">Show Schedule</button>
+    
+    <div class="month">      
+      <ul>
+        <li>
+          YOUR SCHEDULE FOR THE DAY:<br>
+          <span style="font-size:18px"></span>
+        </li>
+      </ul>
+    </div>
+
+     <!-- Table for displaying schedule -->
+     <div id="scheduleContainer" class="mt-4">
+      <table class="table table-striped" id="scheduleTable">
+          <thead>
+              <tr>
+                  <th>Period</th>
+                  <th>Start Time</th>
+                  <th>End Time</th>
+                  <th>Class Name</th>
+                  <th>Teacher Name</th>
+                  <th>Room Number</th>
+              </tr>
+          </thead>
+          <tbody>
+              <!-- Schedule rows will be added here dynamically -->
+          </tbody>
+      </table>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Schedule</title>
+
+   
+    <link rel="stylesheet" href="styles.css"> 
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    
+    <script src="script.js"></script>  
+</head>
+<body>
+
+
+   
+    
+
+    <table id="schedule-table" border="1">
+        <thead>
+            <tr>
+            
+            </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+    </table>
+</body>
+</html>
+
+    
+</script>
+
+</body> 
+
+</html>
